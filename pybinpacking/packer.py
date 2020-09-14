@@ -422,6 +422,8 @@ class Packer:
             criteria: Maximize items(arg = 1) or maximize volume (arg = 2).
         
         """
+        if not self.boxes:
+            return
         
         for box in self.boxes:
             box.format_numbers(number_of_decimals)
