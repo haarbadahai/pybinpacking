@@ -1,6 +1,6 @@
 # 3D bin packing
 
-Small modifications to [Janet-19's solution to the 3d bin packing problem](https://github.com/Janet-19/3d-bin-packing-problem>): 
+Small modifications to [Janet-19's solution to the 3d bin packing problem](https://github.com/Janet-19/3d-bin-packing-problem): 
 
 - Small optimizations (checking for volume and remaining weight before placing)
 - Removed the bin variable, as it's a built-in python function
